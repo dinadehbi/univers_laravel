@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
     @if(session('success'))
         <p>{{ session('success') }}</p>
     @endif
@@ -25,8 +24,3 @@
 @endsection
 
 
-=======
-    <h1>Bienvenue sur mon site !</h1>
-    <p>Ceci est la page d'accueil.</p>
-@endsection
->>>>>>> origin/main
